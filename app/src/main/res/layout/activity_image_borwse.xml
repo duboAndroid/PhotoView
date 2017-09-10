@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/atlas_bgc"
+    android:orientation="vertical">
+
+    <utlis.MyViewPager
+        android:id="@+id/act_imagebrowse_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/atlas_bgc" />
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:src="@drawable/denglufanhui"
+        android:scaleType="centerInside"/>
+    <TextView
+        android:id="@+id/act_imagebrowse_tvcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/atlas_bgc"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:scrollbars="vertical"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+</RelativeLayout>

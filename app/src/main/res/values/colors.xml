@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="jiange">#f7f7f7</color>
+    <color name="gray_dz">#3A3A3A</color>
+    <color name="bg_floder_press">#bdbdbd</color>
+    <color name="atlas_bgc">#1B1B1B</color>
+</resources>
